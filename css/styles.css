@@ -454,6 +454,10 @@
             padding-bottom: 60px;
         }
 
+        .footer-contacts {
+            display: flex;
+            align-items: baseline;
+        }
 
         .footer-logo {
             font-family: Raleway, sans-serif;
@@ -495,15 +499,9 @@
     }
 
 
-    /*.footer-social {*/
-    /*    !*display: block;*!*/
-    /*    !*flex-direction: column;*!*/
-
-    /*    !*display: flex;*!*/
-    /*    !*align-items: baseline;*!*/
-    /*    text-align: left;*/
-    /*}*/
-
+    .footer-social {
+        margin-left: 70px;
+    }
 
     .footer-social-title {
         display: block;
@@ -515,13 +513,10 @@
         line-height: 1.14;
         text-transform: uppercase;
         color: var(--secondary-title-color)
-
-
     }
 
     .footer-social-list {
         display: flex;
-        /*justify-content: center;*/
         padding: 0;
     }
 
