@@ -147,8 +147,10 @@
 
     .header-contacts-list {
         display: flex;
+        align-items: center;
         margin-left: auto;
     }
+
 
     .header-contacts-item:not(:last-child) {
         margin-right: 50px;
@@ -165,6 +167,7 @@
     }
 
     .header-contacts-link {
+        display: flex;
         padding-top: 32px;
         padding-bottom: 32px;
 
@@ -492,6 +495,67 @@
     }
 
 
+    /*.footer-social {*/
+    /*    !*display: block;*!*/
+    /*    !*flex-direction: column;*!*/
+
+    /*    !*display: flex;*!*/
+    /*    !*align-items: baseline;*!*/
+    /*    text-align: left;*/
+    /*}*/
+
+
+    .footer-social-title {
+        display: block;
+        text-align: left;
+        margin-bottom: 20px;
+
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+        color: var(--secondary-title-color)
+
+
+    }
+
+    .footer-social-list {
+        display: flex;
+        /*justify-content: center;*/
+        padding: 0;
+    }
+
+    .footer-social-item + .footer-social-item {
+        margin-left: 10px;
+    }
+
+    .footer-social-item {
+        width: 44px;
+        height: 44px;
+    }
+
+    .footer-social-link {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-social-link:hover,
+    .footer-social-link:focus {
+        background-color: var(--accent-color);
+    }
+
+    .footer-social-icon {
+        fill: var(--white-text-color);
+    }
+
+
+
+
 
 
     /*-------------------------!* Projects *!--------------------------*/
@@ -559,13 +623,15 @@
         margin-top: 30px;
     }
 
-    .projects-page-item:hover {
-        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    }
-
-    /*.projects-page-link:hover {*/
+    /*.projects-page-item:hover {*/
     /*    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);*/
     /*}*/
+
+    .projects-page-link:hover,
+    .projects-page-link:focus {
+        display: block;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
 
 
     .projects-item-bottom {
