@@ -366,14 +366,10 @@
         margin-left: 10px;
     }
 
-    .social-item {
-        width: 44px;
-        height: 44px;
-    }
 
     .social-link {
-        width: 100%;
-        height: 100%;
+        width: 44px;
+        height: 44px;
         border-radius: 50%;
         background-color: var(--primary-background-color);
 
@@ -408,23 +404,22 @@
         display: flex;
         flex-wrap: wrap;
         margin-left: -30px;
-        margin-bottom: -30px;
+        margin-top: -30px;
     }
 
     .clients-item {
         flex-basis: calc(100% / 6 - 30px);
+        margin-left: 30px;
+        margin-top: 30px;
     }
 
     .clients-link {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 170px;
         height: 92px;
         border: 1px solid #AFB1B8;
         border-radius: 4px;
-        margin-left: 30px;
-        margin-bottom: 30px;
     }
 
     .clients-link:hover,
